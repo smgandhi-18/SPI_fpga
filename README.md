@@ -1,4 +1,4 @@
-# Loop Back Connection Management 
+# SPI Loop Back Connection Management 
 
 This repository contains code for managing loop back connections between UART and SPI interfaces on a Xilinx board. The loop back connections allow data to be transmitted from one interface and received back on the same interface for testing and debugging purposes.
 
