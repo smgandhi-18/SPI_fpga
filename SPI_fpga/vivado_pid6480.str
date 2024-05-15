@@ -1,0 +1,256 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 6480
+License: Customer
+
+Current time: 	Thu Feb 23 10:48:51 MST 2023
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1200
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 628 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	bfcoc
+User home directory: C:/Users/bfcoc
+User working directory: C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/bfcoc/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/bfcoc/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/bfcoc/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/vivado.log
+Vivado journal file location: 	C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/vivado.jou
+Engine tmp dir: 	C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/.Xil/Vivado-6480-LenovoT14
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	136 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 593 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 118 MB (+120744kb) [00:00:11]
+// [Engine Memory]: 570 MB (+446167kb) [00:00:11]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\bfcoc\Desktop\Shyama\ECE_315_winter_2023\Lab_3_Winter_2023\lab3_SPI\lab3_SPI.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 54 MB. Current time: 2/23/23, 10:48:54 AM MST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 755 MB (+163598kb) [00:00:22]
+// [Engine Memory]: 796 MB (+4313kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  4750 ms.
+// Tcl Message: open_project C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/bfcoc/zynq_practice/ECE_315_WINTER_2021_LABS/lab3_SPI' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 844.117 ; gain = 221.598 
+// Project name: lab3_SPI; location: C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI; part: xc7z010clg400-1
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 94 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Successfully read diagram <design_1> from BD file <C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 838 MB (+1872kb) [00:02:04]
+// WARNING: HEventQueue.dispatchEvent() is taking  1310 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 854 MB. GUI used memory: 62 MB. Current time: 2/23/23, 10:50:44 AM MST
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // by (cl)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (aH, cl)
+// Elapsed time: 301 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Feb 23 10:55:50 2023] Launched synth_1... Run output will be captured here: C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.runs/synth_1/runme.log [Thu Feb 23 10:55:50 2023] Launched impl_1... Run output will be captured here: C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 63 MB. Current time: 2/23/23, 10:58:19 AM MST
+// Elapsed time: 269 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file mkdir C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk 
+// Tcl Message: file copy -force C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.runs/impl_1/design_1_wrapper.sysdef C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk -hwspec C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk -hwspec C:/Users/bfcoc/Desktop/Shyama/ECE_315_winter_2023/Lab_3_Winter_2023/lab3_SPI/lab3_SPI.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 64 MB. Current time: 2/23/23, 11:28:22 AM MST
+// [GUI Memory]: 124 MB (+166kb) [00:48:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/23/23, 11:58:25 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 12:28:27 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 12:58:29 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  3396160 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 1:56:54 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  960591 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  80591 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  64373 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/23/23, 2:27:10 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  104614 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1536803 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 3:03:42 PM MST
+// WARNING: HTimer (StateMonitor Timer) is taking 1956720ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1957125 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1960162 ms. Increasing delay to 5880486 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1961082 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 3:36:30 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  16529181 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 8:12:30 PM MST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 57327ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  57327 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 62652 ms. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 8:42:30 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/23/23, 9:12:32 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 9:42:35 PM MST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 0 ms. Decreasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 10:12:38 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 10:42:39 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/23/23, 11:12:41 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/23/23, 11:42:44 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/24/23, 12:12:47 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/24/23, 12:42:50 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/24/23, 1:12:52 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 1:42:55 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  18000553 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 6:45:54 AM MST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 9458860ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  9458860 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 9:23:43 AM MST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 9461208 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 746ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 9463224 ms. Increasing delay to 28389672 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  280535 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5908951 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 11:12:30 AM MST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 2927671ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2927671 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 12:01:44 PM MST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2929687 ms. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 59 MB. Current time: 2/24/23, 12:31:46 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 1:01:49 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 58 MB. Current time: 2/24/23, 1:31:51 PM MST
